@@ -1,0 +1,108 @@
+ 
+ html{
+    background-color:#060a14;
+ }
+ 
+ 
+ Body{
+        background-color: #111924;
+
+        /*A coluna de texto: no máximo 720px de largura,
+        |com margem automática de dos dois lados=centralizada.*/
+        max-width: 720px;
+        margin: 0 auto;
+        padding:40px;
+        font-size: 20px; 
+        line-height: 1.7;
+        color: #7a7a7a;
+
+
+        h1{
+            font-family: Prima serif bold;
+            font-size:60px;
+            line-height: 1.25;
+            color: #ffda89;
+            margin-bottom: 4px;
+            padding-bottom: 16px;
+        
+        }
+
+        h2{
+          font-size: 30px;
+          color:#ffda89;
+          margin-top: 48px;
+          
+          
+        }
+
+        p {
+          margin-top: 16px;
+          margin-bottom: 16px;
+        }
+
+        strong{
+            color: #ffffff;
+        }
+        
+        em{
+            color: #5c6670
+        }
+
+        a {
+          color: #1d6fa5;
+          text-decoration:none;    
+        }
+
+        a:hover{
+          color:#56c7f3;
+          text-decoration:underline;
+        }
+        ul,ol{
+            padding-left:24px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        ul ul{
+            margin-top: 8px;
+            color: #5c6670;
+        }
+
+        blockquote {
+            margin-left: 0;
+            margin-right: 0;
+            padding:16px 20px ;
+            font-style: italic;
+        }
+
+        img { 
+            max-width: 100%;
+            border-radius:6px;
+        }
+
+        figure {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 28px;
+            margin-bottom: 28px;
+            margin:28px 0;
+        }
+     
+        figcaption {
+        margin-top:8px;
+        font-size:15px;
+        color: #6b7489;
+        }
+
+    hr{
+     color: #7e7d7d;
+     border:none;
+     border-top: 2px solid #7e7d7d;
+     margin-top: 20px;
+     margin-bottom:20px;
+    }
+}
